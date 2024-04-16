@@ -25,6 +25,6 @@ def generate_table_of_contents(markdown_file):
     return toc
 
 # Example usage:
-markdown_file = './StyleGuide.md'
+markdown_file = './README.md'
 toc_string = generate_table_of_contents(markdown_file)
 print(toc_string)
